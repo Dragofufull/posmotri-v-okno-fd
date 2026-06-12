@@ -4,16 +4,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #545050; 
-  z-index: 10; 
+  background-color: #545050;
+  z-index: 10;
 }
 
 .preloader-chasing-squares {
-  width: 34px;  
+  width: 34px;
   height: 34px;
   display: flex;
-  flex-wrap: wrap; 
-  gap: 4px;        
+  flex-wrap: wrap;
+  gap: 4px;
 }
 
 .preloader-chasing-squares .square {
