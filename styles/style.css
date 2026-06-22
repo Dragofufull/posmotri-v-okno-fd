@@ -11,35 +11,25 @@ html {
 }
 
 .page {
-  inline-size: 100%;
+  inline-size: 100%; 
   block-size: 100%;
   min-height: 100vh;
-  margin: 0;
+  margin: 0; 
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-blockquote,
-fieldset {
+h1, h2, h3, h4, p, ul, ol, li, blockquote, fieldset {
   margin: 0;
   padding: 0;
 }
 
-ul,
-ol {
+ul, ol {
   list-style: none;
 }
 
@@ -58,22 +48,22 @@ ol {
 .content {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  width: 1140px;
+  align-items: center; 
+  width: 1140px; 
   gap: 30px;
 }
 
 .content__details {
   display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  align-self: stretch;
+  flex-direction: column;  
+  flex-grow: 1;            
+  align-self: stretch;         
 }
 
 .result {
   width: 711px;
   align-self: flex-end;
-  flex-shrink: 0;
+  flex-shrink: 0; 
 }
 
 .result__video-container {
@@ -87,7 +77,7 @@ ol {
 .result__video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover;  
   object-position: center;
 }
 
@@ -106,9 +96,9 @@ ol {
 /* Форма поиска */
 .search-form {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+  flex-direction: row;     
+  justify-content: space-between; 
+  align-items: flex-end; 
 }
 
 .search-form__fieldset {
@@ -123,8 +113,8 @@ ol {
 }
 
 .search-form__textfield {
-  background: transparent;
-  border: none;
+  background: transparent; 
+  border: none;            
   width: 225px;
   min-height: 27px;
   font-size: 18px;
@@ -151,10 +141,10 @@ ol {
 }
 
 .search-form__label {
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  gap: 15px;
+  display: flex;         
+  align-items: center;   
+  width: fit-content;    
+  gap: 15px; 
   cursor: pointer;
 }
 
@@ -164,8 +154,8 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid #ffffff;
-  outline-offset: 1px;
+  outline: 1px solid #ffffff; 
+  outline-offset: 1px;        
 }
 
 .search-form__pseudo-checkbox {
@@ -214,7 +204,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 2px solid #ffffff;
+  outline: 2px solid #ffffff; 
   outline-offset: 1px;
 }
 
@@ -227,19 +217,21 @@ ol {
 }
 
 .content__list-container {
-  position: relative;
-  height: 352px;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  position: relative; 
+  height: 298px;        
+  overflow-y: auto;    
+  display: flex;           
+  flex-direction: column;  
+  gap: 30px;    
   margin-top: 26px;
+
+  
 }
 
 .content__list {
   display: flex;
-  flex-direction: column;
-  gap: 30px;
+  flex-direction: column; 
+  gap: 30px;              
 }
 
 .content__list-item {
@@ -262,7 +254,7 @@ ol {
 }
 
 .content__card-link:focus-visible {
-  outline: 2px solid #ffffff;
+  outline: 2px solid #ffffff; 
   outline-offset: 1px;
 }
 
@@ -275,7 +267,7 @@ ol {
 }
 
 .content__video-card {
-  display: flex;
+  display: flex;           
   align-items: flex-start;
 }
 
@@ -288,18 +280,21 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
-  min-width: 0;
+   width: 194px;
+  height: 103px;
+  overflow: hidden;
 }
 
-.content__video-card-title {
-  font-family: 'Oswald', sans-serif;
-  font-size: 30px;
-  text-transform: uppercase;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 100%;
-}
+  .content__video-card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 100%;
+
+    white-space: nowrap;     
+    overflow: hidden;      
+    text-overflow: ellipsis;
+  }
 
 .content__video-card-description {
   font-family: 'Fira Sans Condensed', sans-serif;
